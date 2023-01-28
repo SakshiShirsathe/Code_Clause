@@ -1,0 +1,20 @@
+<form method="post">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+        <option value="">Select a category</option>
+        <option value="Department">Department</option>
+        <option value="Program">Program</option>
+        <option value="Event">Event</option>
+    </select>
+
+    <label for="expDate">Expiration Date:</label>
+    <input type="date" id="expDate" name="expDate" required>
+
+    <input type="submit" name="submit" value="Post Notice">
+</form>
